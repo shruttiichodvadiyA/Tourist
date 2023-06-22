@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/lnrTourPackeges"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:padding="@dimen/_10sdp"
+            android:id="@+id/txtTourCountryName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/amaranth"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_18ssp" />
+        <ImageView
+            android:id="@+id/imgtour"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200sdp"/>
+
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/txtCountryDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@color/black" />
+    </LinearLayout>
+</LinearLayout>
